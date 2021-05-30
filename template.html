@@ -31,11 +31,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="#"
-              >HomePage</a>
+              <a class="nav-link active" aria-current="page" href="#"
+                >HomePage</a
+              >
               <a class="nav-link" href="#">Dashboard</a>
               <a class="nav-link" href="#">{{login}}</a>
             </div>
@@ -44,8 +42,24 @@
       </nav>
     </header>
     <body class="bg-success">
-
-    </body>
+        <div class="d-flex justify-content-center col-12">
+            <h2>Login</h2>         
+            <form class="form login-form">
+                <div class="form-group">
+                    <label for="email-login">email:</label>
+                    <input class="form-input" type="text" id="email-login" />
+                </div>
+                <div class="form-group">
+                    <label for="password-login">password:</label>
+                    <input class="form-input" type="password" id="password-login" />
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary" type="submit">login</button>
+                </div>
+            </form>
+            
+            <script src="/js/login.js"></script>
+        </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
