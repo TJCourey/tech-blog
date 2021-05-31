@@ -1,24 +1,26 @@
-const { Post } = require("../models");
+const { Post, User } = require("../models");
 
 const postdata = [
   {
-    title: "Printemps",
-    content: "April 20, 2021 07:00:00",
+    title: "Finding a career in the tech field",
+    content: "It will be rough but stick to it",
     user_id: 2,
   },
   {
-    title: "Sommer",
-    content: "June 22, 2021 09:00:00",
+    title: "The dangers of over working",
+    content:
+      "All work and no play make Jack a dull boy All work and no play make Jack a dull boy All work and no play make Jack a dull boy All work and no play make Jack a dull boy All work and no play make Jack a dull boy",
     user_id: 1,
   },
   {
-    title: "Herfst",
-    content: "September 23, 2021 08:30:00",
+    title: "JS in a nutshell",
+    content:
+      "Javascript, or JS for short, is a programming language that has a lot of modules that can be used for both front end and back end development",
     user_id: 2,
   },
   {
     title: "Hammering through homework",
-    content: "Do you home work as quickly and violently as possible",
+    content: "Do your home work as quickly and violently as possible",
     user_id: 3,
   },
 ];
