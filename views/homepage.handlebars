@@ -1,12 +1,14 @@
-<div class="dish-card">
-  <div class="dish-card-header">
-    {{dish_name}}
+
+{{each post as |post|}}
+<div class="card">
+  <div class="card-header">
+    {{title}}
   </div>
   <div class="card-body">
-    <!-- We render the description below, using a Handlebars.js expression. -->
     <p>
       Description:
-      {{description}}
+      {{content}}
     </p>
   </div>
 </div>
+{{/each}}
